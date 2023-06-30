@@ -33,7 +33,7 @@ jobs:
         ${{ secrets.ENV }}
         EOF
     - name: Install NPM dependencies
-      run: npm ci
+      run: npm install
     # Optional
     #- name: Build assets
     #  run: npm run assets-dev
