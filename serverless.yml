@@ -12,4 +12,7 @@ functions:
   hello:
     handler: handler.hello
     events:
-      - httpApi: POST 
+      - httpApi:
+          method: POST
+          path: /
+
