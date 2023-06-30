@@ -32,8 +32,8 @@ jobs:
         cat > env.yml << EOF
         ${{ secrets.ENV }}
         EOF
-#     - name: Install NPM dependencies
-#       run: npm install
+    - name: Install NPM dependencies
+      run: npm ci
     # Optional
     #- name: Build assets
     #  run: npm run assets-dev
