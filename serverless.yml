@@ -11,8 +11,7 @@ provider:
 functions:
   hello:
     handler: handler.hello
-    events:
-      - httpApi:
-          method: POST
-          path: /
+    url: true
 
+plugins:
+  - serverless-python-requirements

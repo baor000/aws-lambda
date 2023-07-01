@@ -18,3 +18,9 @@ var/
 
 # Serverless directories
 .serverless
+
+# credentials file
+credentials/*
+
+# node modules
+node_modules/
